@@ -11,6 +11,14 @@
     {
       "source": "/",
       "destination": "/predictor.html"
+    },
+    {
+      "source": "/static/css/(.*)",
+      "destination": "/static/css/$1"
+    },
+    {
+      "source": "/static/media/(.*)",
+      "destination": "/static/media/$1"
     }
   ],
   "headers": [
