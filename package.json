@@ -1,0 +1,23 @@
+{
+  "name": "mines-predictor",
+  "version": "1.0.0",
+  "description": "Mines Predictor Web App for Telegram Bot",
+  "main": "predictor.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "mines",
+    "predictor",
+    "telegram",
+    "bot",
+    "webapp"
+  ],
+  "author": "Mines Predictor Team",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
